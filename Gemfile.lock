@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/alexowens12/alex_owens_view_tool
+  revision: 0209d121073e5cbc1b75f65273833dc28ff6ead1
+  specs:
+    alex_owens_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -182,6 +188,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  alex_owens_view_tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
