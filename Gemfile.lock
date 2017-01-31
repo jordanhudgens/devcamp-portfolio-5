@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/alexowens12/alex_owens_view_tool
-  revision: 0209d121073e5cbc1b75f65273833dc28ff6ead1
-  specs:
-    alex_owens_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,6 +38,7 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    alex_owens_view_tool (0.1.0)
     arel (7.1.4)
     autoprefixer-rails (6.7.2)
       execjs
@@ -188,7 +183,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  alex_owens_view_tool!
+  alex_owens_view_tool (~> 0.1.0)
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
