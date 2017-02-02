@@ -1,3 +1,5 @@
-<h1>Pages#contact</h1>
-
-<p><%= number_to_phone "3852517038" %></p>
+<h1>Lets get in touch</h1>
+// note to fix: I want to show phone number only to those that are logged into my site. Currently set to only allow admin to see.
+<p><%= number_to_phone "3852517038" if logged_in?(:site_admin)%> </p>
+<p> alexowensemail@gmail.com </p>
+<a href="mailto:alexowensemail@gmail.com">Email Me</a>
