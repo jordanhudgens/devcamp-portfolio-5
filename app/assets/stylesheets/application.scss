@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 /*
  * Globals
@@ -188,4 +189,9 @@ body {
     float: none;
     margin-bottom: 10px;
 
+ }
+
+ .about-me-link-logos {
+
+    font-size: 2.5em;
  }
