@@ -1,0 +1,31 @@
+<div class="collapse bg-inverse" id="navbarHeader">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 py-4">
+        <h4 class="text-white">About Me</h4>
+        <p class="text-muted">After spending years trying to earn A's and B's in school, I thought it was time to take a risk and <em>learn!</em> I am now a Full Stack Ruby Rails Web Developer that is taking the time to learn than to earn.</p>
+      </div>
+      <div class="col-sm-4 py-4">
+        <ul class="list-unstyled">
+          <li><%= link_to "Home", root_path, class: 'text-white' %></li>
+          <li><%= link_to "About", about_path, class: 'text-white' %></li>
+          <li><%= link_to "Contact", contact_path, class: 'text-white' %></li>
+          <li><%= link_to "Blog", blogs_path, class: 'text-white' %></li>
+          <li><%= link_to "Portfolio", portfolios_path, class: 'text-white' %></li>
+          <li><%= login_helper 'text-white' %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="navbar navbar-inverse bg-inverse">
+  <div class="container d-flex justify-content-between">
+    <a href="#" class="navbar-brand">Alex Owens' Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</div>
+
+
