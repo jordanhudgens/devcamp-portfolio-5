@@ -175,5 +175,10 @@ h6, .h6 {
 
  .social-links li {
     font-size: 2.5em;
+    text-align: center;
+ }
 
+ .social-links li:hover {
+    transition: 1.8s;
+    transform: rotateY(720deg);
  }

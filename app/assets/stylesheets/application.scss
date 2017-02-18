@@ -79,6 +79,14 @@ body {
   margin-bottom: 0;
 }
 
+.masthead-brand a:hover {
+  text-decoration: none;
+}
+
+.masthead-brand:hover {
+  transition: .8s;
+  transform: rotateX(360deg);
+}
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: bold;
