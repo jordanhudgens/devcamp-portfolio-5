@@ -17,6 +17,10 @@ class User < ApplicationRecord
 
   has_many :comments, dependent: :destroy
 
+  def full_name
+    self.name
+  end
+  
   def first_name
     self.name.split.first
   end
