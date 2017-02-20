@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title><%= @page_title %> </title>
+    <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
-    <meta name="keywords" content= "<%= @seo_keywords %>" />
+    <meta name="keywords" content="<%= @seo_keywords %>" />
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
 
     <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
