@@ -12,6 +12,7 @@ body {
 
 
 /* Links */
+
 a,
 a:focus,
 a:hover {
@@ -19,6 +20,7 @@ a:hover {
 }
 
 /* Custom default button */
+
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -44,6 +46,7 @@ body {
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
+
 .site-wrapper {
   display: table;
   width: 100%;
@@ -65,7 +68,6 @@ body {
 .inner {
   padding: 2rem;
 }
-
 
 /*
  * Header
@@ -225,7 +227,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('windmills.jpg') no-repeat;
+  background: no-repeat;
   background-size: cover;
 }
 
@@ -245,8 +247,6 @@ body {
   opacity: .9;
   padding: 10px;
 }
-
-
 
 .social_media_icon:hover {
     transition: 1.8s;
